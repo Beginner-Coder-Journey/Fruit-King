@@ -1,0 +1,109 @@
+/* สีหลัก */
+:root {
+    --primary-color: #d4af37; /* สีทอง */
+    --secondary-color: #2c2c2c; /* สีดำเข้ม */
+    --background-color: #f5f5f5; /* สีขาวมุก */
+    --text-color: #000; /* สีดำ */
+    --font-family: 'Playfair Display', serif; /* ฟอนต์ดูหรู */
+}
+
+/* ตกแต่งส่วน Header */
+.header-section {
+    background: url('https://cdn.pixabay.com/photo/2017/08/02/00/50/luxury-2579610_960_720.jpg') no-repeat center center / cover;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    padding: 70px 0;
+    font-family: var(--font-family);
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-section p {
+    font-size: 1.5rem;
+}
+
+/* ตกแต่งปุ่ม */
+.btn-success {
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid white;
+}
+
+/* ส่วนสินค้าแนะนำ */
+#features {
+    background-color: var(--background-color);
+    padding: 60px 0;
+    font-family: var(--font-family);
+}
+
+#features h2 {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#features .col-md-4 {
+    background: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+}
+
+#features .col-md-4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+#features img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#features h4 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+#features p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ส่วน Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    font-family: var(--font-family);
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
